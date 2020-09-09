@@ -1,0 +1,43 @@
+.panelheading {
+    color: #fff;
+    background-color: #504c4c;
+    padding-bottom: 15px;
+    padding-left: 20px;
+  
+  }
+.btn {
+  margin-top: 10px;
+}
+
+.breadcrumb {
+  background-color: rgba(211, 209, 209, 0.692);
+}
+
+.a-style {
+  color:#807474;
+}
+
+.list-group-item.active {
+  background-color: rgb(201, 7, 7);
+  border-color: rgb(201, 7, 7);
+  color: #fff;
+}
+
+.second-panel-heading {
+  background-color: rgb(201, 7, 7);
+  font-size: 16px;
+  color: #fff;
+  padding: 6px 0px 12px 10px;
+  font-weight: bold;
+}
+
+.form-group {
+  width: 80rem;
+}
+
+.btn-primary {
+  margin-right: 4px;
+}
+
+
+  
