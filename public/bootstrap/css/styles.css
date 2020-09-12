@@ -35,6 +35,10 @@
   width: 80rem;
 }
 
+.form-control {
+  width:70%
+}
+
 .btn-primary {
   margin-right: 4px;
 }
