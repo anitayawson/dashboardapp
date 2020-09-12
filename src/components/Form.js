@@ -19,19 +19,19 @@ export default class form extends Component {
                 <form onSubmit={this.submitForm}>
                     <div class="form-group">
                         <label for="InputCompanyName">Company Name</label>
-                        <input type="text"  onChange={this.props.updateInput} name="CompanyName" class="form-control" id="InputCompanyName"></input>
+                        <input type="text"  onChange={this.props.updateInput} name="CompanyName" class="form-control" style={{width: "70%"}} id="InputCompanyName"></input>
                     </div>
                     <div class="form-group">
                         <label for="InputMarket">Market/Industry</label>
-                        <input type="text" class="form-control" id="InputMarket" name="Market"></input>
+                        <input type="text" class="form-control" style={{width: "70%"}} id="InputMarket" name="Market"></input>
                     </div>
                     <div class="form-group">
                         <label for="InputLocation">Location</label>
-                        <input type="text"  class="form-control" id="InputLocation" name="Location"></input>
+                        <input type="text"  class="form-control" style={{width: "70%"}} id="InputLocation" name="Location"></input>
                     </div>
                     <div class="form-group">
                         <label for="InputDate">Date Joined</label>
-                        <input type="date"  class="form-control" id="InputDate" name="Joined"></input>
+                        <input type="date"  class="form-control" style={{width: "70%"}} id="InputDate" name="Joined"></input>
                     </div>
                     <button class="btn btn-primary"> Submit </button>
                 </form>
